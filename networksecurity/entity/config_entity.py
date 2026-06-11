@@ -1,6 +1,9 @@
 from datetime import datetime
 import os
 from networksecurity.constants import training_pipeline
+from dotenv import load_dotenv
+import os
+
 
 print(training_pipeline.PIPELINE_NAME)
 print(training_pipeline.ARTIFACT_DIR)
